@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+ body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: white;
+}
+body.abdul-kalam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/abdul.jpg") no-repeat center center/cover;
+}
+body.rumi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/rumi.jpg") no-repeat center center/cover;
+}
+body.bill-gates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/BillGates.webp") no-repeat center center/cover;
+}
+body.muhammad-ali {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/muhammad-ali-rare-photos-17-587cbbbb19a6c__880.webp") no-repeat center center/cover;
+}
+body.aristotle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/aristotle_by_raphael_wikimedia_commons_cropped.webp") no-repeat center top/cover;
+}
+body.abu-bakr-ra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/abu.webp") no-repeat center center/cover;
+}
+body.albert-einstein {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/Albert-Einstein.webp") no-repeat center center/cover;
+}
+body.abraham-lincoln {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/president-abraham-lincoln.webp") no-repeat center top/cover;
+}
+body.oprah-winfrey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/oprah-winfrey-7k623p5rdoi5xku6.webp") no-repeat center center/cover;
+}
+body.william-shakespeare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/WilliamShakespeare.webp") no-repeat center center/cover;
+}
+body.mother-teresa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/mather-teresa-ylli-haruni.webp") no-repeat center center/cover;
+}
+body.nelson-mandela {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/NelsonMandela.webp") no-repeat center center/cover;
+}
+body.umar-ibn-al-khattāb-ra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/UmarIbnAl-Khattab.jpg") no-repeat center center/cover;
+}
+body.walt-disney {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/Walt_Disney_1946.webp") no-repeat center center/cover;
+}
+body.ali-ibn-abi-talib-ra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  opacity: 80%;
+  background: url("./assets/UmarIbnAl-Khattab.jpg") no-repeat center center/cover;
+}
+.wrapper{
+  width: 605px;
+  background: transparent;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+  box-shadow: 0 12px 35px rgb(255, 255, 255);
+}
+header, .content :where(i, p, span){
+  color: #ffffff;
+}
+.wrapper header{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+.wrapper .content{
+  margin: 35px 0;
+}
+.content .quote-area{
+  display: flex;
+  justify-content: center;
+}
+.quote-area i{
+  font-size: 15px;
+}
+.quote-area i:first-child{
+  margin: 3px 10px 0 0;
+}
+.quote-area i:last-child{
+  display: flex;
+  margin: 0 0 3px 10px;
+  align-items: flex-end;
+}
+.quote-area .quote{
+  font-size: 22px;
+  text-align: center;
+  word-break: break-all;
+  animation: slide 1.5s steps(10) infinite;
+}
+.content .author{
+  display: flex;
+  font-size: 18px;
+  margin-top: 20px;
+  font-style: italic;
+  justify-content: flex-end;
+}
+.author span:first-child{
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+.wrapper .buttons{
+  border-top: 1px solid #ccc;
+}
+.buttons .features{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.features ul{
+  display: flex;
+}
+.features ul li{
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  display: flex;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.features ul li:first-child{
+  margin-left: 0;
+}
+ul li:is(:hover, .active) {
+  color: #0d0d0d;
+  background: #ffffff;
+}
+
+ul .speech.active {
+  pointer-events: none;
+}
+
+/* Button styles */
+.buttons button {
+  font-family: "Telegraf Regular", sans-serif;
+  border: none;
+  color: #0d0d0d;
+  background: #ffffff;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 13px 22px;
+  border-radius: 30px;
+}
+
+.buttons button.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+#newquote{
+  padding: 13px 22px;
+  background: white;
+  color: black;
+}
+ 
